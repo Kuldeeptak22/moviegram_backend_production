@@ -4,7 +4,6 @@ import fs from "fs";
 import dotenv from "dotenv";
 dotenv.config();
 import cors from "cors";
-import path from "path";
 const app = express();
 app.use(cors()); // To avaoid cors errors genereated Through cross plateforms (differents ports access)
 app.use(express.json()); // To read Body Data
